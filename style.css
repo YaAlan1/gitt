@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: black solid;
+    margin: 0 auto;
+
+}
+
+.box {
+    width: 1200px;
+    height: 631px;
+    top: 231px;
+    left: 314px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+}
+
+
+td,
+th {
+    border: 1px solid black;
+}
+
+.pp {
+    width: 190px;
+    padding: 10px 10px;
+}
+/* Стиль для состояния 'В прогрессе' */
+.in-progress {
+    color: blue;  /* Синий цвет */
+}
+
+/* Стиль для состояния 'Не выполнено' */
+.not-done {
+    color: red;   /* Красный цвет */
+}
+
+.tx {
+    width: 800px;
+    padding: 10px 15px;
+}
+
+.th {
+    width: 100px;
+    padding: 10px 33px;
+}
+
+.num {
+    width: 100px;
+    padding: 10px 33px;
+}
+
+.pppp {
+    width: 100px;
+    padding: 10px 33px;
+}
+
+.active {
+    color: blue;
+}
+
+.text__2 {
+    margin: 10px 70px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.text {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px 70px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.btn {
+    display: flex;
+    margin-left: 26px;
+
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
